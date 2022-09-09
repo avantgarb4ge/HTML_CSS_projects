@@ -1,0 +1,23 @@
+h1 {
+	text-align: center;
+}
+
+/*this is for the border*/
+table {
+	border: 2px solid gold;
+}
+/*this is for the hover effect*/
+td:hover {
+	background-color: blue;
+	color: black;
+}
+/*colors for top row of cells*/
+tr,th {
+	background-color: black;
+	color: white;
+}
+/*colors for remaining cells*/
+tr, td {
+	background-color: purple;
+	color: white;
+}
