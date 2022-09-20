@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="eng">
+
 	<head>
 		<title>Froglandia</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/shared.css">
+		<link rel="stylesheet" href="./css/animations.css">
 	</head>
 	<body>
 		
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery" id="link"><li>GALLERY</li></a>
 					<a href="#contact" id="link"><li>RESERVATIONS</li></a>
@@ -20,25 +23,25 @@
 		
 		<!-- HOME -->
 		<div id="home">
-			<div>
-				<div>
-					<span>Froglandia</span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Froglandia</span>
 				</div>
 			</div>
 		</div>
 		<!-- END HOME -->
 		
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
+		<section id="gallery">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 				
 					<!-- PHOTO CONTAINER 1 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumbnail_1.jpg" alt="Frog with Raspberry Hat" height="500" width="500">
-							<div>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="images/thumb/thumbnail_1.jpg" alt="Frog with Raspberry Hat">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>A calm, weekend morning. Topped with a strawberry hat.</p>
 							</div>
@@ -47,10 +50,10 @@
 					<!-- END PHOTO CONTAINER 1 -->
 					
 					<!-- PHOTO CONTAINER 2 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumbnail_2.jpg" alt="Frog Stretching" height="500" width="500">
-							<div>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="images/thumb/thumbnail_2.jpg" alt="Frog Stretching">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>For those with flexible limbs! Yoga class included.</p>
 							</div>
@@ -59,10 +62,10 @@
 					<!-- END PHOTO CONTAINER 2 -->
 					
 					<!-- PHOTO CONTAINER 3 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumbnail_3.jpg" alt="Frog Gliding" height="500" width="500">
-							<div>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="images/thumb/thumbnail_3.jpg" alt="Frog Gliding">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Live as an adrenaline junkie and glide through the forest.</p>
 							</div>
@@ -71,10 +74,10 @@
 					<!-- END PHOTO CONTAINER 3 -->
 					
 					<!-- PHOTO CONTAINER 4 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumbnail_4.jpg" alt="Frog King" height="500" width="500">
-							<div>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="images/thumb/thumbnail_4.jpg" alt="Frog King">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Ever wanted to live out your royalty dreams?</p>
 							</div>
@@ -83,10 +86,10 @@
 					<!-- END PHOTO CONTAINER 4 -->
 					
 					<!-- PHOTO CONTAINER 5 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumbnail_5.jpg" alt="Frog Bike" height="500" width="500">
-							<div>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="images/thumb/thumbnail_5.jpg" alt="Frog Bike">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>A cool, suave look on a vintage motorcycle.</p>
 							</div>
@@ -95,10 +98,10 @@
 					<!-- END PHOTO CONTAINER 5 -->
 					
 					<!-- PHOTO CONTAINER 6 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumbnail_6.jpg" alt="Frog with Snail Headphones" Height="500" Width="500">
-							<div>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="images/thumb/thumbnail_6.jpg" alt="Frog with Snail Headphones">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Experience the limited edition Dr. Dre Snail Beats! Perfect for aspiring DJs.</p>
 							</div>
@@ -107,10 +110,10 @@
 					<!-- END PHOTO CONTAINER 6 -->
 					
 					<!-- PHOTO CONTAINER 7 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumbnail_7.jpg" alt="Frog Sunglasses" height="500" width="500">
-							<div>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="images/thumb/thumbnail_7.jpg" alt="Frog Sunglasses">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Life's more fun in a pair of shades. Even more so in the shaded jungle!</p>
 							</div>
@@ -119,10 +122,10 @@
 					<!-- END PHOTO CONTAINER 7 -->
 					
 					<!-- PHOTO CONTAINER 8 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumbnail_8.jpg" alt="Frog Umbrella Rainy" height="500" width="500">
-							<div>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="images/thumb/thumbnail_8.jpg" alt="Frog Umbrella Rainy">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>No need to save for a rainy day! Live care free!</p>
 							</div>
@@ -131,10 +134,10 @@
 					<!-- END PHOTO CONTAINER 8 -->
 					
 					<!-- PHOTO CONTAINER 9 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumbnail_9.jpg" alt="Frog Big Mouth" height="500" width="500">
-							<div>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="images/thumb/thumbnail_9.jpg" alt="Frog Big Mouth">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We are just as appalled at this option.</p>
 							</div>
@@ -148,30 +151,30 @@
 		<!-- END GALLERY -->
 		
 		<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Reservations</h1>
-					<div>
-						<h2><span>Your adventure is just around the moon.</span>
-							<br />Reserve your flight today!
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div class="reservation">
+						<h2><span>Just can't wait to live your fullest frog life?</span>
+							<br/>Contact us today!
 						</h2>
-						<p>
-							Please provide us with your basic contact information.
+						<p class="rsvp-text">
+							Please enter your contact information.
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
-								<input class="rsvp" type="text" value="First Name">
-								<input class="rsvp" type="text" value="Last Name">
-								<input class="rsvp" type="text" value="Email Address">
-								<input class="rsvp" type="text" value="Phone Number">
-								<div class="form-spacer">
-									<label class="terms">Terms and Conditions</label>
-								</div>
-								<div>
-									<input type="submit" value="Submit">
-								</div>
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<input class="rsvp" type="text" value="" placeholder="Last Name">
+								<input class="rsvp" type="text" value="" placeholder="Email Address">
+								<input class="rsvp" type="text" value="" placeholder="Phone Number">
 							</form>
+							<div class="form-spacer">
+								<label class="terms">Terms and Conditions</label>
+							</div>
+							<div class="submit">
+								<input type="submit" value="Submit">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -180,9 +183,11 @@
 		<!-- END RSVP -->
 		
 		<!-- FOOTER -->
-		<div>
-			www.thespacestation.space &nbsp;| &nbsp; &copy; 2016
+		<div id="footer">
+			www.froglandia.com &nbsp;|&nbsp; &copy; 2022
 		</div>
 		<!-- END FOOTER -->
+
 	</body>
+
 <html>
