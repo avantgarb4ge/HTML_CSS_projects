@@ -1,0 +1,19 @@
+/*--------------------
+    GENERAL STYLE
+---------------------*/
+html {
+    font-family: monospace;
+    font-size: 90%;
+}
+
+/*-------------------
+    INPUT STYLES
+-------------------*/
+.reservation input[type=text] {
+    font-size: 30px;
+    width: 80%;
+    margin: 8px;
+    border: 2px solid brown;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
