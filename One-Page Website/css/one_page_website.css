@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  margin: 0%;
+  margin: 0%; /*ensures contents are at the edges of screen*/
 }
 * {
   box-sizing: border-box;
@@ -57,7 +57,7 @@ body {
 }
 
 /*--------------
-    GALLERY
+    GALLERY; eventually need to add media query
 --------------*/
 #cakeTitle {
   text-align: center;
@@ -65,7 +65,7 @@ body {
 }
 
 .row > .column {
-  padding: 0 8px;
+  padding: 0 8px; /*padding between images in row*/
 }
 
 .row:after {
