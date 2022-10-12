@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<title>Kat's Bakery</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/one_page_website.css">
+	</head>
+	<body>		
+		<!--Home Page-->
+		<header id="home">
+			<div id="header-text">
+				<h1>Cakes by Chowder</h1>
+				<p>
+					A local bakery that offers customizable baked treats.<br>
+					Handmade by the 3 michelin star cat chef, Chowder.
+				</p>
+			</div>
+		</header>
+
+		<!--Nav Bar-->
+		<div class="navbar">
+			<a href="#home">HOME</a>
+			<a href="#gallery">CAKES</a>
+			<a href="#contact">CONTACT FORM</a>
+			<a href="#videos">ABOUT</a>
+		</div>
+		
+		<!--Images-->
+		<section id="gallery">
+			<div id="cakeTitle">
+				<h1>Current Cake Offerings</h1>
+				<p>All cakes are 8cm and can be customized with catnip</p>
+			</div>
+			
+			<div class="row">
+				<!--Photo 1-->
+				<div class="column">		
+					<img src="images/cake_1.jpg" alt="Tiramisu Cake" onclick="openModal();currentSlide(1)">					
+				</div>
+			
+				<!--Photo 2-->
+				<div class="column">					
+					<img src="images/cake_2.jpg" alt="Blueberry Cake" onclick="openModal();currentSlide(2)">
+				</div>
+			
+				<!--Photo 3-->
+				<div class="column">					
+					<img src="images/cake_3.jpg" alt="Mango Mousse Cake" onclick="openModal();currentSlide(3)">					
+				</div>
+			
+				<!--Photo 4-->
+				<div class="column">					
+					<img src="images/cake_4.jpg" alt="Tres Leches Cake" onclick="openModal();currentSlide(4)">
+				</div>
+
+				<!--Photo 5-->
+				<div class="column">					
+					<img src="images/cake_5.jpg" alt="Double Chocolate" onclick="openModal();currentSlide(5)">
+				</div>
+
+				<!--Photo 6-->
+				<div class="column">				
+					<img src="images/cake_6.jpg" alt="Lemon Cake" onclick="openModal();currentSlide(6)">
+				</div>
+
+				<!--Photo 7-->
+				<div class="column">					
+					<img src="images/cake_7.jpg" alt="Carrot Cake" onclick="openModal();currentSlide(7)">
+				</div>
+
+				<!--Photo 8-->
+				<div class="column">					
+					<img src="images/cake_8.jpg" alt="Red Velvet Cake" onclick="openModal();currentSlide(8)">
+				</div>
+			</div>
+		</section>
+
+		<!--Lightbox-->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+		  
+			  <div class="mySlides">
+				<div class="numbertext">1 / 8</div>
+				<img src="./images/cake_1_wide.jpg" style="width:100%">
+			  </div>
+		  
+			  <div class="mySlides">
+				<div class="numbertext">2 / 8</div>
+				<img src="./images/cake_2_wide.jpg" style="width:100%">
+			  </div>
+		  
+			  <div class="mySlides">
+				<div class="numbertext">3 / 8</div>
+				<img src="./images/cake_3_wide.jpg" style="width:100%">
+			  </div>
+		  
+			  <div class="mySlides">
+				<div class="numbertext">4 / 8</div>
+				<img src="./images/cake_4_wide.jpg" style="width:100%">
+			  </div>
+
+			  <div class="mySlides">
+				<div class="numbertext">5 / 8</div>
+				<img src="./images/cake_5_wide.jpg" style="width:100%">
+			  </div>
+
+			  <div class="mySlides">
+				<div class="numbertext">6 / 8</div>
+				<img src="./images/cake_6_wide.jpg" style="width:100%">
+			  </div>
+
+			  <div class="mySlides">
+				<div class="numbertext">7 / 8</div>
+				<img src="./images/cake_7_wide.jpg" style="width:100%">
+			  </div>
+
+			  <div class="mySlides">
+				<div class="numbertext">8 / 8</div>
+				<img src="./images/cake_8_wide.jpg" style="width:100%">
+			  </div>
+		  
+			  <!-- Next/previous controls -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		  
+			  <!-- Caption text -->
+			  <div class="caption-container">
+				<p id="caption"></p>
+			  </div>
+		  
+			  <!-- Thumbnail image controls -->
+			  <div class="column">
+				<img class="demo" src="./images/cake_1.jpg" onclick="currentSlide(1)" alt="Tiramisu Cake">
+			  </div>
+		  
+			  <div class="column">
+				<img class="demo" src="./images/cake_2.jpg" onclick="currentSlide(2)" alt="Blueberry Cake">
+			  </div>
+		  
+			  <div class="column">
+				<img class="demo" src="./images/cake_3.jpg" onclick="currentSlide(3)" alt="Mango Mousse Cake">
+			  </div>
+		  
+			  <div class="column">
+				<img class="demo" src="./images/cake_4.jpg" onclick="currentSlide(4)" alt="Tres Leches Cake">
+			  </div>
+
+			  <div class="column">
+				<img class="demo" src="./images/cake_5.jpg" onclick="currentSlide(5)" alt="Double Chocolate Cake">
+			  </div>
+
+			  <div class="column">
+				<img class="demo" src="./images/cake_6.jpg" onclick="currentSlide(6)" alt="Lemon Cake">
+			  </div>
+
+			  <div class="column">
+				<img class="demo" src="./images/cake_7.jpg" onclick="currentSlide(7)" alt="Carrot Cake">
+			  </div>
+
+			  <div class="column">
+				<img class="demo" src="./images/cake_8.jpg" onclick="currentSlide(8)" alt="Red Velvet Cake">
+			  </div>
+			</div>
+		</div>
+
+		<!--Video-->
+		<section id="videos">
+			<h2>Curious about our work?</h2>
+			<p>Here's a glimpse into our amazing, mesmerizing production line!</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/e7vsPqNmlFI" title="Cake Making" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</section>
+		
+		<!--Contact-->
+		<section id="contact">
+			<div>
+				<h1>Contact Us</h1>
+				<div class="comment">
+					<h2>Questions? Comments? Reservations?</h2>
+					<p>
+						Please provide us with your basic contact information and a message.
+					</p>
+					<div class="sheet">
+						<form action="" method="post">
+							<input class="rsvp" type="text" placeholder="First Name" value="">
+							<input class="rsvp" type="text" placeholder="Last Name" value="">
+							<input class="rsvp" type="text" placeholder="Email Address" value="">
+							<input class="rsvp" type="text" placeholder="Message" value="">
+							<div class="form-spacer">
+								<label class="terms">Terms and Conditions</label>
+							</div>
+							<div>
+								<input type="submit" value="Submit">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		<section>
+		
+		<!--foot-->
+		<div>
+			batteries not included. this is totally not a scam.
+		</div>
+		
+		<script src="./js/one_page_website.js"></script>
+	</body>
+</html>
